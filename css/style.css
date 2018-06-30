@@ -27,6 +27,10 @@ header {
 	margin-top: 20px;
 }
 .header-button {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	text-decoration: none;
 	width: 202px;
 	height: 52px;
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
@@ -36,6 +40,12 @@ header {
 	font-size: 18px;
 	font-weight: 700;
 	margin-top: 33px;
+}
+.header-button:hover {
+	box-shadow: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 header small {
 	font-size: 12px;
@@ -142,6 +152,13 @@ border: 1px solid #ffffff;
 color: #deedfe;
 font-size: 18px;
 padding: 12px 40px;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color: #6e2896;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 @media (max-width: 1200px) {
